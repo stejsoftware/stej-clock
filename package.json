@@ -1,8 +1,12 @@
 {
   "name": "stej-clock",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple clock to demo the seven-segment-display.",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stejsoftware/stej-clock"
+  },
   "files": [
     "src/",
     "public/"
