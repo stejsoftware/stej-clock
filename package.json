@@ -1,6 +1,6 @@
 {
   "name": "stej-clock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple clock to demo the seven-segment-display.",
   "main": "lib/index.js",
   "repository": {
@@ -9,11 +9,12 @@
   },
   "files": [
     "src/",
-    "public/"
+    "public/",
+    "public/dist/"
   ],
   "scripts": {
     "build": "npm-run-all build:*",
-    "build:node": "webpack --devtool source-map --progress --colors",
+    "build:node": "webpack --progress --colors",
     "watch": "npm-run-all --parallel watch:*",
     "watch:node": "webpack --watch --devtool source-map --progress --colors",
     "test": "eslint src",
@@ -29,13 +30,13 @@
   "author": "Jonathan Meyer <jon@stej.com>",
   "license": "ISC",
   "dependencies": {
+    "seven-segment-display": "^0.2.0"
+  },
+  "devDependencies": {
     "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
-    "seven-segment-display": "^0.2.0"
-  },
-  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",
