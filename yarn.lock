@@ -3717,12 +3717,9 @@ setimmediate@^1.0.4, setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
 
-seven-segment-display@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/seven-segment-display/-/seven-segment-display-0.1.1.tgz#6c9284973548dff2aa68ef800cb2d9202389c8af"
-
-"seven-segment-display@file:../seven-segment-display":
+seven-segment-display@^0.2.0:
   version "0.2.0"
+  resolved "https://registry.yarnpkg.com/seven-segment-display/-/seven-segment-display-0.2.0.tgz#526ad9840e1ef65c63704e00216efeb2b6e60c86"
   dependencies:
     react "^15.6.1"
     react-dom "^15.6.1"
