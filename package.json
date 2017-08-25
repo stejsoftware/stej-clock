@@ -1,6 +1,6 @@
 {
   "name": "stej-clock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple clock to demo the seven-segment-display.",
   "main": "lib/index.js",
   "repository": {
