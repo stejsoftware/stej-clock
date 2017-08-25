@@ -30,6 +30,7 @@
   "author": "Jonathan Meyer <jon@stej.com>",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^0.10.0",
     "seven-segment-display": "^0.2.0"
   },
   "devDependencies": {
@@ -45,7 +46,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.5",
     "eslint": "^4.5.0",
-    "http-server": "^0.10.0",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",
     "shx": "^0.2.2",
